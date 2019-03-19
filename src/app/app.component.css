@@ -1,0 +1,95 @@
+section {padding:2rem;}
+.bg-amarelo { background: url(../assets/fundo3.png) no-repeat 0px 0px fixed;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -moz-background-size: cover;}
+
+.bg-academico {
+   background: linear-gradient(
+      rgba(0, 0, 0, 0.555),rgba(255, 230, 0, 0.726)
+    ), url(../assets/fundo3.png) no-repeat 0px 0px fixed;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -moz-background-size: cover;
+   background-color:rgba(80, 80, 80, 0.493);}
+
+
+.interesses {
+   background: url(../assets/fundo2.jpg) no-repeat 0px 0px fixed;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -moz-background-size: cover;
+}
+
+
+.teste{
+    position:absolute;
+    z-index:auto;
+    top:10%;
+    left:20%;
+    
+       }
+
+.teste2{
+        position:absolute;
+        z-index:auto;
+        top:40%;
+        left:80%;
+           }       
+
+.teste3{
+         position:absolute;
+         z-index:auto;
+         top:20%;
+         left:70%;
+            }   
+
+.teste4 {
+
+      position:absolute;
+      z-index:auto;
+      top:60%;
+      right:70%;
+                  } 
+
+.recuo { text-indent:4em }
+
+fontbio{
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   color: #4a4a4b;
+}
+
+
+.accordions{
+   width:100%;
+   margin:0 auto;
+   border:none;
+}
+.accordion-item input{
+  display:none;
+}
+.accordion-item label{
+   display:block;
+   border:none;
+   background: none;
+   cursor:pointer;
+  padding:5px 3px;
+}
+.accordion-content{
+   height: 0px;
+   overflow: hidden;
+   -webkit-transition: height 0.3s ease-in-out;
+   -moz-transition: height 0.3s ease-in-out;
+   -o-transition: height 0.3s ease-in-out;
+   -ms-transition: height 0.3s ease-in-out;
+   transition: height 0.3s ease-in-out;
+}
+[id^=accordion]:checked ~ .accordion-content {
+   height: 100px;
+}
