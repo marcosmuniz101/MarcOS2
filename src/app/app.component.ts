@@ -41,13 +41,11 @@ export class AppComponent {
   faCode = faCodeBranch;
 
   modalRef: BsModalRef;
-  items: any[];
-  materias: [
-    {periodo: 1, nome:"Algoritmos e Programação I", status: "Aprovado"}
-  ];
+  
+
   
   constructor(private modalService: BsModalService) {
-    this.items = Array(15).fill(0);
+    
     
   }
   

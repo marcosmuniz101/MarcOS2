@@ -91,5 +91,6 @@ fontbio{
    transition: height 0.3s ease-in-out;
 }
 [id^=accordion]:checked ~ .accordion-content {
-   height: 100px;
+   height: auto;
 }
+

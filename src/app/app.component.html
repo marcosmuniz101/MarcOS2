@@ -202,28 +202,24 @@
     <br><br><br><br>
   
   
-  
-  
- 
-    <button type="button" class="btn btn-primary" (click)="openModal(template)">Create template modal</button>
- 
+
     <ng-template #template>
       <div class="modal-header">
-        <h4 class="modal-title pull-left">Modal</h4>
+        <h4 class="modal-title pull-left">Materias</h4>
         <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        <div class="modal-materias">
+      <div>
+       <app-materias></app-materias>
+        
 
-        </div>
-      
       </div>
     </ng-template>
       
 
 </section>
+
 
 
 

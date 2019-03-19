@@ -8,14 +8,14 @@
  }
  .accordion-item label{
     width:auto;
-    display:block;
+    display:auto;
     border:none;
     background: none;
     cursor:pointer;
    padding:5px 3px;
  }
  .accordion-content{
-    width:auto;
+    width:500;
     height: 0px;
     overflow: hidden;
     -webkit-transition: height 0.3s ease-in-out;
@@ -25,5 +25,5 @@
     transition: height 0.3s ease-in-out;
  }
  [id^=accordion]:checked ~ .accordion-content {
-    height: 100px;
+    height: auto;
  }
